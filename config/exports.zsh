@@ -11,6 +11,7 @@ export PATH="$PATH:$HOME/.cargo/bin"
 export PATH="/opt/homebrew/bin:/opt/homebrew/sbin:$PATH"
 export PATH="/opt/homebrew/opt/qt@5/bin:$PATH"
 export PATH="$HOME/.deno/bin:$PATH"
+export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
 
 # Set the Go environment variables.
 export GOPATH=$HOME/go
