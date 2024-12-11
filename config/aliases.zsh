@@ -44,9 +44,7 @@ alias iv='nvim'
 alias v='nvim'
 alias emacs='emacsclient -t'
 alias nvimrc='nvim ~/.config/nvim/init.vim'
-alias mutt='neomutt'
-alias hugo='hugo --environment develop'
-alias feh='feh --conversion-timeout 1'
+alias nvimdiff='git -c "diff.tool=nvimdiff" difftool'
 
 alias sshbamboo='sshrc -i ~/.ssh/keys/oneshoe@longfonds-web10.prolocation.net bamboo@util3.office.oneshoe.nl'
 alias sshlongfondsacc10='sshrc -i ~/.ssh/keys/oneshoe@omring-web10.prolocation.net oneshoe@longfonds-acc10.prolocation.net'
@@ -73,4 +71,4 @@ alias sshlongfondsaws='sshrc -i ~/.ssh/keys/oneshoe@longfonds-acc10.prolocation.
 alias sshnedaptunnel='ssh azureuser@20.16.151.42 -L 3306:10.161.2.4:3306'
 
 # Edit this file.
-alias aliases='vi $HOME/Documents/dotfiles/zsh_config/config/aliases.zsh'
+alias aliases='vi $HOME/.config/zsh/config/aliases.zsh'
