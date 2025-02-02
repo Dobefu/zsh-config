@@ -45,7 +45,6 @@ export PASSWORD_STORE_GPG_OPTS='--no-throw-keyids'
 # Prevent Storybook from opening the browser.
 export BROWSER=none
 
-
 # Load NVM
 NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
 export NVM_DIR
