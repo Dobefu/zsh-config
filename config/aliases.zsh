@@ -34,14 +34,13 @@ alias .='source'
 alias t='tmux'
 alias tsess='tmux new-session -A -s remote'
 alias cdgit='cd $(git root)'
-alias icat="kitty +kitten icat"
 
 alias copy='xclip -selection clipboard'
 alias vi='nvim'
 alias vim='nvim'
 alias iv='nvim'
 alias v='nvim'
-alias emacs='emacsclient -t'
+alias gti='git'
 alias nvimrc='nvim ~/.config/nvim/init.lua'
 alias nvimdiff='git -c "diff.tool=nvimdiff" difftool'
 
