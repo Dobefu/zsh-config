@@ -53,6 +53,7 @@ alias sshkoeprod='sshrc -i ~/.ssh/keys/webdev@koekompas00.appno.nl cvspronssen@k
 alias sshdhlexpressacc10='sshrc -i ~/.ssh/keys/oneshoe@omring-web10.prolocation.net oneshoe@dhlexpress-acc10.prolocation.net'
 alias sshdhlexpressweb10='sshrc -i ~/.ssh/keys/oneshoe@omring-web10.prolocation.net oneshoe@dhlexpress-web10.prolocation.net'
 alias sshdhlexpressweb20='sshrc -i ~/.ssh/keys/oneshoe@omring-web10.prolocation.net oneshoe@dhlexpress-web20.prolocation.net'
+alias sshnhgtst10='sshrc -i ~/.ssh/keys/oneshoe@omring-acc10.prolocation.net oneshoe@nhgarts-t-web10.prolocation.net'
 alias sshnhgacc10='sshrc -i ~/.ssh/keys/oneshoe@omring-acc10.prolocation.net oneshoe@nhgarts-a-web10.prolocation.net'
 alias sshnhgapiacc10='sshrc -i ~/.ssh/keys/oneshoe@nhgarts-p-web10.prolocation.net oneshoe@nhgartsapi-a-web10.prolocation.net'
 alias sshnhgweb10='sshrc -i ~/.ssh/keys/oneshoe@omring-acc10.prolocation.net oneshoe@nhgarts-p-web10.prolocation.net'
