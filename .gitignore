@@ -1,3 +1,8 @@
+# History data.
 histfile
 
+# MacOS files.
 .DS_Store
+
+# Private data.
+private.zsh
