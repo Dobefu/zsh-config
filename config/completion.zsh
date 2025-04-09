@@ -14,4 +14,7 @@ zstyle ':completion:*' matcher-list '' 'm:{a-zA-Z}={A-Za-z}' 'r:|[._-]=* r:|=*' 
 
 zstyle :compinstall filename '~/.zshrc'
 
+fpath+=($ZSH_DIR/config/completion/)
+
 . $ZSH_DIR/config/completion/pnpm.zsh
+. $ZSH_DIR/config/completion/go-web-starter.zsh
