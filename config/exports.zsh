@@ -18,6 +18,8 @@ export GOPATH=$HOME/go
 export GOROOT=/opt/homebrew/opt/go/libexec
 export PATH=$PATH:$GOPATH/bin
 export PATH=$PATH:$GOROOT/bin
+export GOCACHE="$HOME/.cache/go-build"
+export GOMODCACHE="$HOME/.cache/go-mod"
 
 # Add fixed NVM version to the PATH. Important: The must be the first entry.
 export PATH="$HOME/.nvm/versions/node/v18.14.0/bin:$PATH"
