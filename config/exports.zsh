@@ -24,6 +24,9 @@ export GOMODCACHE="$HOME/.cache/go-mod"
 # Add fixed NVM version to the PATH. Important: The must be the first entry.
 export PATH="$HOME/.nvm/versions/node/v18.14.0/bin:$PATH"
 
+# Add a NodeJS compile cache directory.
+export NODE_COMPILE_CACHE="$HOME/.cache/node-compile-cache"
+
 # Remove all special characters from the word chars.
 export WORDCHARS=""
 
