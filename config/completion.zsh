@@ -18,3 +18,4 @@ fpath+=($ZSH_DIR/config/completion/)
 
 . $ZSH_DIR/config/completion/pnpm.zsh
 . $ZSH_DIR/config/completion/go-web-starter.zsh
+. $ZSH_DIR/config/completion/web2paper.zsh
