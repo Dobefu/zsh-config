@@ -66,7 +66,7 @@ nvm() {
   nvm "$@"
 }
 
-# Setup PNPM global path
+# Setup PNPM global path.
 export PNPM_HOME="/Users/dobefu/Library/pnpm"
 case ":$PATH:" in
   *":$PNPM_HOME:"*) ;;
