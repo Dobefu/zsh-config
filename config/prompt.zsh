@@ -1,7 +1,7 @@
 # For reference on colours, check:
 # https://upload.wikimedia.org/wikipedia/commons/1/15/Xterm_256color_chart.svg
 
-# Allow dynamic content and functions in the prompt
+# Allow dynamic content and functions in the prompt.
 setopt PROMPT_SUBST
 
 function dir_icon() {
