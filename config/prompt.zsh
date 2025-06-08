@@ -32,14 +32,20 @@ function cmd_status() {
   fi
 }
 
+DATE_CMD="date"
+
+if [[ "$(uname)" == "Darwin" ]]; then
+  DATE_CMD="gdate"
+fi
+
 function preexec() {
-  TIME_MS=$(gdate '+%s.%N')
+  TIME_MS=$($DATE_CMD '+%s.%N')
   BRANCH=$VCS_STATUS_LOCAL_BRANCH
 }
 
 function time_ms() {
   if [ $TIME_MS ]; then
-    TIME_MS=$(($(gdate '+%s.%N') - $TIME_MS))
+    TIME_MS=$(($($DATE_CMD '+%s.%N') - $TIME_MS))
     printf "%.2fs " "$TIME_MS"
     unset TIME_MS
   else

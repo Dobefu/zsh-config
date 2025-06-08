@@ -8,18 +8,24 @@ export PATH="$PATH:$HOME/.local/bin"
 export PATH="$PATH:$HOME/.emacs.d/bin"
 export PATH="$PATH:$HOME/.yarn/bin"
 export PATH="$PATH:$HOME/.cargo/bin"
-export PATH="/opt/homebrew/bin:/opt/homebrew/sbin:$PATH"
-export PATH="/opt/homebrew/opt/qt@5/bin:$PATH"
 export PATH="$HOME/.deno/bin:$PATH"
-export PATH="/opt/homebrew/opt/openjdk@17/bin:$PATH"
+
+if [[ "$(uname)" == "Darwin" ]]; then
+  export PATH="/opt/homebrew/bin:/opt/homebrew/sbin:$PATH"
+  export PATH="/opt/homebrew/opt/qt@5/bin:$PATH"
+  export PATH="/opt/homebrew/opt/openjdk@17/bin:$PATH"
+fi
 
 # Set the Go environment variables.
 export GOPATH=$HOME/go
-export GOROOT=/opt/homebrew/opt/go/libexec
 export PATH=$PATH:$GOPATH/bin
 export PATH=$PATH:$GOROOT/bin
 export GOCACHE="$HOME/.cache/go-build"
 export GOMODCACHE="$HOME/.cache/go-mod"
+
+if [[ "$(uname)" == "Darwin" ]]; then
+  export GOROOT=/opt/homebrew/opt/go/libexec
+fi
 
 # Add fixed NVM version to the PATH. Important: The must be the first entry.
 export PATH="$HOME/.nvm/versions/node/v18.14.0/bin:$PATH"
