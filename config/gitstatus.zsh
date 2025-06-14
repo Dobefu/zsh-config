@@ -3,8 +3,8 @@ function gitstatus_prompt_update() {
   typeset -g  GITSTATUS_PROMPT=''
   typeset -gi GITSTATUS_PROMPT_LEN=0
 
-  gitstatus_query 'MY'                  || return 1  # error
-  [[ $VCS_STATUS_RESULT == 'ok-sync' ]] || return 0  # not a git repo
+  gitstatus_query 'MY'                  || return 1  # Error.
+  [[ $VCS_STATUS_RESULT == 'ok-sync' ]] || return 0  # Not a git repo.
 
   local clean='%000F'
   local modified='%088F'
@@ -24,8 +24,8 @@ function gitstatus_prompt_update() {
     where=${VCS_STATUS_COMMIT[1,8]}
   fi
 
-  (( $#where > 32 )) && where[13,-13]="…"  # truncate long branch names and tags
-  p+="${clean}${where//\%/%%}"             # escape %
+  (( $#where > 32 )) && where[13,-13]="…"  # Truncate long branch names and tags.
+  p+="${clean}${where//\%/%%}"             # Escape %.
 
   VCS_STATUS_NUM_TOTAL=0
 
