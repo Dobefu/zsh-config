@@ -10,4 +10,3 @@ setopt HIST_IGNORE_DUPS
 # Search through history with what was already typed.
 bindkey "${terminfo[kcuu1]}" history-substring-search-up
 bindkey "${terminfo[kcud1]}" history-substring-search-down
-
