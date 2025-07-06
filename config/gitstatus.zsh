@@ -3,8 +3,8 @@ function gitstatus_prompt_update() {
   typeset -g  GITSTATUS_PROMPT=''
   typeset -gi GITSTATUS_PROMPT_LEN=0
 
-  gitstatus_query 'MY'                  || return 1  # Error.
-  [[ $VCS_STATUS_RESULT == 'ok-sync' ]] || return 0  # Not a git repo.
+  gitstatus_query 'MY'                  || return 1
+  [[ $VCS_STATUS_RESULT == 'ok-sync' ]] || return 0
 
   local clean='%000F'
   local modified='%088F'
