@@ -24,8 +24,8 @@ function gitstatus_prompt_update() {
     where=${VCS_STATUS_COMMIT[1,8]}
   fi
 
-  (( $#where > 32 )) && where[13,-13]="…"  # Truncate long branch names and tags.
-  p+="${clean}${where//\%/%%}"             # Escape %.
+  (( $#where > 32 )) && where[13,-13]="…"
+  p+="${clean}${where//\%/%%}"
 
   VCS_STATUS_NUM_TOTAL=0
 
