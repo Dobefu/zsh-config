@@ -29,7 +29,7 @@ fi
 
 # Add fixed NVM version to the PATH.
 # Important: The must be the first entry in the PATH.
-export PATH="$HOME/.nvm/versions/node/v18.14.0/bin:$PATH"
+export PATH="$HOME/.nvm/versions/node/v20.16.0/bin:$PATH"
 
 # Add a NodeJS compile cache directory.
 export NODE_COMPILE_CACHE="$HOME/.cache/node-compile-cache"
