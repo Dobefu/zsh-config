@@ -1,4 +1,4 @@
-# Enable completion
+# Enable completion.
 autoload -Uz compinit
 compinit
 
