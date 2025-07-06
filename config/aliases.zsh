@@ -9,7 +9,6 @@ alias rg='rg -L --max-depth=25 --smart-case'
 alias sshrc='sshrc -X'
 
 alias sshconnor='sshrc root@176.9.7.113'
-alias sshclockpi='sshrc pi@clockpi.local'
 alias sshcvbackend='sshrc -i ~/.ssh/keys/root@176.9.7.113 webdev@49.13.127.233'
 
 alias lll='lsd -lah | less'
