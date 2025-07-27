@@ -10,6 +10,7 @@ export PATH="$PATH:$HOME/.yarn/bin"
 export PATH="$PATH:$HOME/.cargo/bin"
 export PATH="$HOME/.deno/bin:$PATH"
 
+# MacOS overrides.
 if [[ "$(uname)" == "Darwin" ]]; then
   export PATH="/opt/homebrew/bin:/opt/homebrew/sbin:$PATH"
   export PATH="/opt/homebrew/opt/qt@5/bin:$PATH"
