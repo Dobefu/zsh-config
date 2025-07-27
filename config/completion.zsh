@@ -14,6 +14,7 @@ zstyle ':completion:*' matcher-list '' 'm:{a-zA-Z}={A-Za-z}' 'r:|[._-]=* r:|=*' 
 
 zstyle :compinstall filename '~/.zshrc'
 
+# Add completion directories.
 fpath+=($ZSH_DIR/config/completion/)
 
 # Load additional completion scripts.
