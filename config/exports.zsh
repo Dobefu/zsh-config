@@ -55,7 +55,7 @@ export PICO_SDK_PATH="$HOME/pico-sdk"
 # Prevent GnuPG from throwing away KeyIDs.
 export PASSWORD_STORE_GPG_OPTS='--no-throw-keyids'
 
-# Prevent Storybook from opening the browser.
+# Prevent CLI applications like Storybook from opening the browser.
 export BROWSER=none
 
 # Dynamically load NVM.
