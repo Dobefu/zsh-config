@@ -24,6 +24,7 @@ export PATH=$PATH:$GOROOT/bin
 export GOCACHE="$HOME/.cache/go-build"
 export GOMODCACHE="$HOME/.cache/go-mod"
 
+# More MacOS overrides.
 if [[ "$(uname)" == "Darwin" ]]; then
   export GOROOT=/opt/homebrew/opt/go/libexec
 fi
