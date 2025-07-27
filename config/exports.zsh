@@ -46,7 +46,7 @@ export LANGUAGE="en_US.UTF-8"
 # Set the TERMINFO path.
 export TERMINFO=/usr/lib/terminfo
 
-# Only enable fancy var_dumps on CLI.
+# Only enable fancy var_dumps in the CLI.
 export XDEBUG_MODE=develop
 
 # Set the Pico SDK path.
