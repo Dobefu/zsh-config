@@ -4,6 +4,7 @@
 # Allow dynamic content and functions in the prompt.
 setopt PROMPT_SUBST
 
+# Dynamically set a home icon when in the home directory.
 function dir_icon() {
   if [ "$PWD" = "$HOME" ]; then
     echo ""
