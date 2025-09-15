@@ -81,3 +81,6 @@ case ":$PATH:" in
   *":$PNPM_HOME:"*) ;;
   *) export PATH="$PNPM_HOME:$PATH" ;;
 esac
+
+# Disable Microsoft telemetry.
+FUNCTIONS_CORE_TOOLS_TELEMETRY_OPTOUT='1'
