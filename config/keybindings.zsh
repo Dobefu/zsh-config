@@ -6,7 +6,7 @@ bindkey "^[[1;3D" backward-word
 bindkey "^[[1;5C" forward-word
 bindkey "^[[1;5D" backward-word
 
-# Bind ctrl+D to the exit function, so we can overwrite it later.
+# Bind ctrl+D to the exit function, so we can overwrite it with a custom function later.
 bindkey -s "" 'exit\n'
 
 typeset -g -A key

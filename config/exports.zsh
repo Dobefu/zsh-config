@@ -68,6 +68,7 @@ export NVM_DIR
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" --no-use
 [[ -r $NVM_DIR/bash_completion ]] && source $NVM_DIR/bash_completion
 
+# NVM setup function. Will be executed lazily, for a faster shell startup.
 nvm() {
   unset -f nvm
   export NVM_PREFIX=$(brew --prefix nvm)
