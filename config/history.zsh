@@ -5,6 +5,7 @@ HISTFILE=~/.config/zsh/histfile
 HISTSIZE=1000
 SAVEHIST=1000
 
+# Ignore subsequent duplicate entries.
 setopt HIST_IGNORE_DUPS
 
 # Autocreate the ZSH history directory if it doesn't exist.
