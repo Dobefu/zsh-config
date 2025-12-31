@@ -1,3 +1,4 @@
+# Add Git information to the prompt if we're in a directory that uses Git.
 function gitstatus_prompt_update() {
   emulate -L zsh
   typeset -g  GITSTATUS_PROMPT=''
