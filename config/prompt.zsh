@@ -55,6 +55,7 @@ function time_ms() {
   fi
 }
 
+# Construct the prompt.
 PROMPT=""
 PROMPT="$PROMPT%F{007}%F{021}%K{007}%F{007}%k%f "
 PROMPT="$PROMPT%F{004}%F{015}%K{004}%B"'$(dir_icon)'" %8~%F{004}%k%b "
