@@ -13,6 +13,7 @@ function dir_icon() {
   fi
 }
 
+# Add Git information to the prompt.
 function git_prompt() {
   if [ $GITSTATUS_PROMPT_LEN -gt 0 ]; then
     BGCOL="002"
