@@ -62,6 +62,7 @@ PROMPT="$PROMPT%F{004}%F{015}%K{004}%B"'$(dir_icon)'" %8~%F{004}%k%b "
 PROMPT="$PROMPT"'$(git_prompt)'
 PROMPT="$PROMPT"$'\n'
 
+# If we're a root user, make the prompt red.
 if [ "$(whoami)" = "root" ]; then
   PROMPT="$PROMPT%F{001}%F{015}%K{001}%n@%m%F{001}%k%f "
 else
