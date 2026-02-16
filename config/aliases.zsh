@@ -22,6 +22,7 @@ alias tsess='tmux new-session -A -s remote'
 alias cdgit='cd $(git root)'
 
 alias copy='xclip -selection clipboard'
+alias space='du -sh * | sort -h'
 alias vi='nvim'
 alias vim='nvim'
 alias iv='nvim'
