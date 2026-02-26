@@ -31,5 +31,7 @@ alias gti='git'
 alias nvimrc='nvim ~/.config/nvim/init.lua'
 alias nvimdiff='git -c "diff.tool=nvimdiff" difftool'
 
+alias agent='cursor-agent'
+
 # Edit this file.
 alias aliases='vi $HOME/.config/zsh/config/aliases.zsh'
