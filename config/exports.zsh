@@ -27,6 +27,7 @@ export GOMODCACHE="$HOME/.cache/go-mod"
 # More MacOS overrides.
 if [[ "$(uname)" == "Darwin" ]]; then
   export GOROOT=/opt/homebrew/opt/go/libexec
+  export CC="$(which gcc-15)"
 fi
 
 # Add fixed NVM version to the PATH.
