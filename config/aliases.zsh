@@ -6,7 +6,7 @@ alias fgrep='fgrep --color=auto'
 alias egrep='egrep --color=auto'
 alias rg='rg -L --max-depth=25 --smart-case'
 
-alias sshrc='sshrc -X'
+alias sshrc='ghostty +ssh --terminfo=false --ssh=sshrc -- -X'
 
 alias lll='lsd -lah | less'
 alias ll='lsd -lah'
